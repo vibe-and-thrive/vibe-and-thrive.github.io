@@ -99,6 +99,12 @@ body {
 .nav-logo a {
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
+}
+
+.nav-logo a:hover {
+    text-decoration: none;
+    color: inherit;
 }
 
 .nav-logo h2 {
@@ -110,6 +116,7 @@ body {
     gap: var(--spacing-2);
     cursor: pointer;
     transition: opacity 0.3s ease;
+    margin: 0;
 }
 
 .nav-logo h2:hover {
