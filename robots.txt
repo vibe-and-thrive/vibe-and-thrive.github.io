@@ -1,6 +1,10 @@
 User-agent: *
 Allow: /
 
+# Explicitly allow AdSense crawler
+User-agent: Mediapartners-Google
+Allow: /
+
 # Sitemap location
 Sitemap: https://vibe-and-thrive.github.io/sitemap.xml
 
