@@ -96,6 +96,11 @@ body {
     align-items: center;
 }
 
+.nav-logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .nav-logo h2 {
     color: var(--primary-color);
     font-weight: 700;
@@ -103,6 +108,12 @@ body {
     display: flex;
     align-items: center;
     gap: var(--spacing-2);
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.nav-logo h2:hover {
+    opacity: 0.8;
 }
 
 .nav-logo i {
@@ -784,11 +795,13 @@ section {
 .logo-link {
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }
 
 .logo-link:hover {
     text-decoration: none;
     color: inherit;
+    opacity: 0.8;
 }
 
 /* Sitemap Specific Styles */
